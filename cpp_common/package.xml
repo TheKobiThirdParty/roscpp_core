@@ -18,10 +18,7 @@
   <buildtool_depend>catkin</buildtool_depend>
 
   <build_depend>boost</build_depend>
-  <build_depend>libconsole-bridge-dev</build_depend>
-
   <exec_depend>boost</exec_depend>
-  <exec_depend>libconsole-bridge-dev</exec_depend>
 
   <depend>console_bridge</depend>
 
