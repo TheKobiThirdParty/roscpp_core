@@ -1,4 +1,4 @@
-<package>
+<package format="2">
   <name>cpp_common</name>
   <version>0.6.11</version>
   <description>
@@ -18,8 +18,8 @@
   <buildtool_depend>catkin</buildtool_depend>
 
   <build_depend>boost</build_depend>
-  <build_depend>libconsole-bridge-dev</build_depend>
+  <exec_depend>boost</exec_depend>
 
-  <run_depend>boost</run_depend>
-  <run_depend>libconsole-bridge-dev</run_depend>
+  <depend>console_bridge</depend>
+
 </package>
